@@ -1,6 +1,6 @@
 .cards{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
     gap: 40px;
     margin-left: 100px;
@@ -10,9 +10,4 @@
 }
 .cards2{
    font-size: larger;
-}
-
-
-.image > img{
-    margin-right: 200px;
 }
