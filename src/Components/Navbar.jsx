@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [userName, setUserName] = useState("");
-    const [data, setData] = useState({});
+    const [data, setData] = useState([]);
   
     const handleChange = (e) => {
       setUserName(e.target.value);
